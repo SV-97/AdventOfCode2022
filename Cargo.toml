@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 itertools = "0.12.0"
 once_cell = "1.18.0"
+pcw_fn = "0.2.1"
 regex = "1.10.2"
 
 [lib]

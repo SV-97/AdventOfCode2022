@@ -1,12 +1,4 @@
-#![feature(array_windows)]
-//  applying the refactor suggested by this lint makes the code quite a bit less readable
-#![allow(clippy::option_map_unit_fn)]
-
-use std::{
-    collections::{HashMap, HashSet, VecDeque},
-    ops::RangeInclusive,
-    str::FromStr,
-};
+use std::{collections::VecDeque, str::FromStr};
 
 use aoc::input::day_04::INPUT;
 use itertools::Itertools;
